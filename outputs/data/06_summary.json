@@ -1,0 +1,9 @@
+{
+  "rule_zero": "Report the popularity baseline first, always.",
+  "accuracy_winner": "item_knn",
+  "discovery_winner": "content",
+  "worst_discovery": "popularity",
+  "mf_beats_popularity_on_recall": false,
+  "cold_start_crossover_n": 1,
+  "offline_online_caveat": "Offline ranking wins are necessary but not sufficient: metrics reward recommending what the user would have found anyway."
+}

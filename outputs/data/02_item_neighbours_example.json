@@ -1,0 +1,37 @@
+{
+  "seed_movie": "Forrest Gump (1994)",
+  "nearest_items": [
+    {
+      "title": "Shawshank Redemption, The (1994)",
+      "cosine": 0.7154939969975996
+    },
+    {
+      "title": "Jurassic Park (1993)",
+      "cosine": 0.685706537761223
+    },
+    {
+      "title": "Pulp Fiction (1994)",
+      "cosine": 0.68274170643495
+    },
+    {
+      "title": "Braveheart (1995)",
+      "cosine": 0.6363805506759639
+    },
+    {
+      "title": "Silence of the Lambs, The (1991)",
+      "cosine": 0.6344016488160589
+    },
+    {
+      "title": "Apollo 13 (1995)",
+      "cosine": 0.6210484027069392
+    },
+    {
+      "title": "Matrix, The (1999)",
+      "cosine": 0.6094604723073003
+    },
+    {
+      "title": "Mrs. Doubtfire (1993)",
+      "cosine": 0.6083909718693866
+    }
+  ]
+}

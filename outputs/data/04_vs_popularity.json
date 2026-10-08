@@ -1,0 +1,52 @@
+{
+  "precision@k": {
+    "popularity": 0.0072131147540983615,
+    "methods_that_beat_it": [
+      "user_knn",
+      "item_knn"
+    ]
+  },
+  "recall@k": {
+    "popularity": 0.036065573770491806,
+    "methods_that_beat_it": [
+      "user_knn",
+      "item_knn"
+    ]
+  },
+  "ndcg@k": {
+    "popularity": 0.020891418473214116,
+    "methods_that_beat_it": [
+      "user_knn",
+      "item_knn"
+    ]
+  },
+  "map": {
+    "popularity": 0.012021207390059848,
+    "methods_that_beat_it": [
+      "user_knn",
+      "item_knn"
+    ]
+  },
+  "coverage": {
+    "popularity": 0.012546277252159605,
+    "methods_that_beat_it": [
+      "user_knn",
+      "item_knn",
+      "matrix_factorization",
+      "content"
+    ]
+  },
+  "novelty": {
+    "popularity": 1.4270822956142546,
+    "methods_that_beat_it": [
+      "user_knn",
+      "item_knn",
+      "matrix_factorization",
+      "content"
+    ]
+  },
+  "diversity": {
+    "popularity": 0.7003337902880429,
+    "methods_that_beat_it": []
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "scenario": "always, first",
+    "recommend": "popularity baseline",
+    "why": "the yardstick; may already beat the fancy method"
+  },
+  {
+    "scenario": "sparse data / few ratings per user",
+    "recommend": "item-based CF or content",
+    "why": "stable item similarities; content needs no co-ratings"
+  },
+  {
+    "scenario": "plenty of interactions, want accuracy",
+    "recommend": "item-based CF (MF if trained for ranking)",
+    "why": "CF leads on this data; explicit-rating MF loses at top-N"
+  },
+  {
+    "scenario": "new user, no history",
+    "recommend": "popularity, then CF/MF as history builds",
+    "why": "cold start is explore-exploit"
+  },
+  {
+    "scenario": "new item, no ratings",
+    "recommend": "content-based",
+    "why": "features let a never-rated item be recommended"
+  },
+  {
+    "scenario": "optimize for discovery",
+    "recommend": "CF / MF / content (not popularity alone)",
+    "why": "popularity has the worst novelty and diversity"
+  }
+]

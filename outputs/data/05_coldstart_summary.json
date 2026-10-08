@@ -1,0 +1,9 @@
+{
+  "recall_at_zero_history": {
+    "popularity": 0.06408947282310645,
+    "user_knn": 0.0,
+    "content": 0.0
+  },
+  "user_knn_overtakes_popularity_at_n": 1,
+  "note": "MF shares CF's failure: a brand-new user has no learned embedding, so it also needs a popularity/content fallback until history accrues."
+}

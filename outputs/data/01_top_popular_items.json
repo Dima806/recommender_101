@@ -1,0 +1,52 @@
+[
+  {
+    "rank": 1,
+    "title": "Forrest Gump (1994)",
+    "n_ratings": 329
+  },
+  {
+    "rank": 2,
+    "title": "Shawshank Redemption, The (1994)",
+    "n_ratings": 317
+  },
+  {
+    "rank": 3,
+    "title": "Pulp Fiction (1994)",
+    "n_ratings": 307
+  },
+  {
+    "rank": 4,
+    "title": "Silence of the Lambs, The (1991)",
+    "n_ratings": 279
+  },
+  {
+    "rank": 5,
+    "title": "Matrix, The (1999)",
+    "n_ratings": 278
+  },
+  {
+    "rank": 6,
+    "title": "Star Wars: Episode IV - A New Hope (1977)",
+    "n_ratings": 251
+  },
+  {
+    "rank": 7,
+    "title": "Jurassic Park (1993)",
+    "n_ratings": 238
+  },
+  {
+    "rank": 8,
+    "title": "Braveheart (1995)",
+    "n_ratings": 237
+  },
+  {
+    "rank": 9,
+    "title": "Terminator 2: Judgment Day (1991)",
+    "n_ratings": 224
+  },
+  {
+    "rank": 10,
+    "title": "Schindler's List (1993)",
+    "n_ratings": 220
+  }
+]

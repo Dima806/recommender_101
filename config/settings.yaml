@@ -1,0 +1,26 @@
+# recommender_101 configuration — all tunable knobs + seeds live here, not hardcoded.
+seed: 42
+top_k: 10
+like_threshold: 4.0          # a rating >= this counts as a "like"
+
+data:
+  dataset: ml-latest-small
+  url: https://files.grouplens.org/datasets/movielens/ml-latest-small.zip
+  min_ratings_per_user: 5
+
+split:
+  n_holdout: 2               # leave-last-out: hold out each user's N most-recent interactions
+  min_train: 3               # keep at least this many ratings in train per user
+
+knn:
+  n_neighbors: 40
+
+mf:
+  n_factors: 32
+  n_epochs: 30
+  lr: 0.01
+  reg: 0.05
+  use_bias: true
+
+content:
+  n_neighbors: 40
